@@ -1,0 +1,427 @@
+#main{
+
+    width: 98.5vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 254, 254);
+    margin-right: 1vw;
+}
+
+.nav-container img{
+    width: 6vw;
+    height: 5vh;
+    margin-left: 1vw;
+}
+
+.tendina{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
+.nav-container button{
+    width: 6vw;
+    height: 5vh;
+    background-color: rgb(255, 254, 254);
+    border: none;
+    cursor: pointer;
+}
+.search-bar{
+    display: flex;
+    width: 20vw;
+    height: 4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 7vw;
+    border-bottom: 0.1vw solid rgb(0, 0, 0);
+    
+}
+
+#Intro{
+    width: 98.5vw;
+    display: flex;
+    overflow: hidden;
+   
+}
+#Intro img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.on-image{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 8vw;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.527);   
+    
+}
+
+
+.on-image button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.466);
+    box-shadow: 3px 4px 20px 9px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5vw;
+}    
+
+.separa{
+    width: 98.5vw;
+    height: 4vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#first{
+    width: 98.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#second{
+    width: 98.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+#dual-container{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9vw;
+    
+}
+
+.left-container{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vw;
+}
+.right-container{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;  
+}
+#dual-container span{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+
+#dual-container button{
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 1vh;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    
+}
+
+#dual-container button span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1vh;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+
+.Inside-box1{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    flex-direction: column;
+    margin-left:-60vw;
+}
+    
+.Inside-box1 h2{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.Inside-box1 p{
+    margin-top: -1.5vh;
+}
+
+.Inside-box1 button{
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 1vh;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.Inside-box1 button span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1vh;
+    color: white;
+}
+
+.Inside-box2{
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    flex-direction: column;
+    margin-left:-60vw;
+}
+
+.Inside-box2 p{
+    font-size: 2vw;
+    font-weight: bold;
+    
+}
+
+.Inside-box2 button{
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 1vh;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.Inside-box2 button span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1vh;
+    color: white;
+}
+
+footer{
+    width: 98.5vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-top: 5vh;
+}
+
+.Iscriviti{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Gravitas One";
+    border-top: 1px solid rgb(0, 0, 0);
+    flex-direction: column;
+}
+
+.Iscriviti button{
+    width: 10vw;
+    height: 3vh;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 1vh;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.Iscriviti button span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1vh;
+    color: white;
+}
+#sub-container{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin-top: 1vh;
+}
+
+
+
+@media(max-width:480px){
+
+    .nav-container{
+        
+        align-items: center;
+    }
+
+    .tendina{
+        display:flex;
+        margin-right: 20vw;
+        width: 3vw;
+        height: 5vh;
+    }
+    .tendina  button img{
+        width: 12vw;
+        height: 5vh;
+        margin-left: -3vw;
+    }
+
+    .nav-container img{
+        width: 20vw;
+        height: 5vh;
+        margin-left: -1vw;
+    }
+
+    
+   .div-button{
+    display: none;
+   }
+
+   .on-image{
+    justify-content: center;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 15vh;
+    font-size: 3vw;
+    
+    }
+
+    .on-image button{
+        background-color: rgba(255, 255, 255, 0.258);
+        margin-left: 10vw;
+    }
+    .Inside-box1{
+        align-items: center;
+    }
+
+    .Inside-box1 h2{
+        font-size: 10vw;
+        font-weight: bold;
+        margin-top: -3vh;
+    }
+
+    .Inside-box1 p{
+        font-size: 4vw;
+        margin-top: -1vh;
+        margin-left: 17vw;;
+        width: 50vw;
+    }
+
+    .Inside-box1 button{
+        width: 15vw;
+        height: 4vh;
+        
+    }
+
+    
+    .Inside-box2{
+        align-items: center;
+    }
+
+    .Inside-box2 p{
+        font-size: 5vw;
+        width: 40vw;
+        margin-left: 10vw;
+    }
+
+    .Inside-box2 button{
+        width: 15vw;
+        height: 4vh;
+        
+    }
+
+    #dual-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50vw;
+        height: 130vh;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #dual-container img{
+        width: 70vw;
+        height: 30vh;
+        
+    }
+
+    #dual-container .right-container{
+       margin-top: -30vh;
+       
+    }
+
+    #dual-container button{
+        width: 30vw;
+        height: 5vh;
+       
+    }
+    #dual-container span{
+        width: 50vw;
+        font-size: 4vw;
+        font-weight: bold;
+        margin-top: 1vh;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .Iscriviti button{
+        width: 15vw;
+        height: 5vh;
+    }   
+
+    
+    .sub-items h2{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    .sub-items li{
+        font-size: 2.2vw;
+        
+    }
+
+    
+}
